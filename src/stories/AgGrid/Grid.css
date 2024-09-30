@@ -1,0 +1,46 @@
+.ag-theme-quartz {
+    /* Changes the color of the grid text */
+    --ag-foreground-color: rgb(14, 68, 145);
+    /* Changes the color of the grid background */
+    --ag-background-color: rgb(241, 247, 255);
+    /* Changes the header color of the top row */
+    --ag-header-background-color: rgb(228, 237, 250);
+    /* Changes the hover color of the row*/
+    --ag-row-hover-color: rgb(216, 226, 255);
+  }
+  
+  .rag-red {
+    background-color: #cc222244;
+  }
+  
+  .rag-green {
+    background-color: #33cc3344;
+  }
+  
+  html {
+    font-family: sans-serif;
+    font-size: 14px;
+  }
+  
+  table {
+    border: 1px solid lightgray;
+  }
+  
+  tbody {
+    border-bottom: 1px solid lightgray;
+  }
+  
+  th {
+    border-bottom: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    padding: 2px 4px;
+  }
+  
+  tfoot {
+    color: gray;
+  }
+  
+  tfoot th {
+    font-weight: normal;
+  }
+  
